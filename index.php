@@ -1,6 +1,9 @@
 <?php
 
-    
+    require_once __DIR__."/Models/Product.php";
+    require_once __DIR__."/Models/Food.php";
+    require_once __DIR__."/Models/Games.php";
+    require_once __DIR__."/Models/Utilities.php";
     
 ?>
 
@@ -24,12 +27,14 @@
                     </div>
                 </header>
                 <div class="main">
-
-                </div>
-                <div class="container my-5">
-                    <div class="row">
-                        <div class="col-4"></div>
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-12">
+                                
+                            </div>
+                        </div>
                     </div>
+
                 </div>
 
         </div>
