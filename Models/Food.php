@@ -8,12 +8,16 @@
         function __construct($image, $title, $price, $type, $weight, $ingredients){
 
             parent::__construct($image, $title, $price, $type);
-            $this->weight = $image;
+            $this->weight = $weight;
             $this->ingredients = $ingredients;
             
         }
 
+        
+
+
 
     }
+
 
 ?>
