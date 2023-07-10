@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
-body{
-    color: white;
+
+header, footer{
+    background: rgb(232,237,26);
+}
+
+main{
+    margin: 0 auto;
 }
 img{
     min-width: 200px;

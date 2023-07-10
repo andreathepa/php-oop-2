@@ -40,82 +40,110 @@
     <body>
         
         <div class="wrapper">
-                <header>
-                    <div class="container mt-5 text-center">
+                <header class="p-5 d-flex justify-content-center align-items-center">
+                    <div class="container text-center">
                         <h1>BOOLSHOP</h1>
                     </div>
                 </header>
                 <div class="main">
-                    <div class="container my-5">
+                    <div class="container my-5 bg-white">
                         <div class="row">
-                                <div class="col-4 card">
-                                    <img src="<?php echo $food_1->image ?>" alt="">
-                                    <div><?php echo $food_1->title ?></div>
-                                    <div>Price: <?php echo $food_1->price ?></div>
-                                    <div><?php echo $food_1->type ?></div>
-                                    <div>Weight: <?php echo $food_1->weight ?></div>
-                                    <div>Ingredients: <?php echo $food_1->ingredients ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $food_1->image ?>" alt="">
+                                        <div><?php echo $food_1->title ?></div>
+                                        <div>Price: <?php echo $food_1->price ?></div>
+                                        <div><?php echo $food_1->type ?></div>
+                                        <div>Weight: <?php echo $food_1->weight ?></div>
+                                        <div>Ingredients: <?php echo $food_1->ingredients ?></div>
+
+                                    </div>
                                 </div>
-                                <div class="col-4 card">
-                                    <img src="<?php echo $food_2->image ?>" alt="">
-                                    <div><?php echo $food_2->title ?></div>
-                                    <div>Price: <?php echo $food_2->price ?></div>
-                                    <div><?php echo $food_2->type ?></div>
-                                    <div>Weight: <?php echo $food_2->weight ?></div>
-                                    <div>Ingredients: <?php echo $food_2->ingredients ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $food_2->image ?>" alt="">
+                                        <div><?php echo $food_2->title ?></div>
+                                        <div>Price: <?php echo $food_2->price ?></div>
+                                        <div><?php echo $food_2->type ?></div>
+                                        <div>Weight: <?php echo $food_2->weight ?></div>
+                                        <div>Ingredients: <?php echo $food_2->ingredients ?></div>
+
+                                    </div>
                                 </div>
-                                <div class="col-4 card">
-                                    <img src="<?php echo $food_3->image ?>" alt="">
-                                    <div><?php echo $food_3->title ?></div>
-                                    <div>Price: <?php echo $food_3->price ?></div>
-                                    <div><?php echo $food_3->type ?></div>
-                                    <div>Weight: <?php echo $food_3->weight ?></div>
-                                    <div>Ingredients: <?php echo $food_3->ingredients ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $food_3->image ?>" alt="">
+                                        <div><?php echo $food_3->title ?></div>
+                                        <div>Price: <?php echo $food_3->price ?></div>
+                                        <div><?php echo $food_3->type ?></div>
+                                        <div>Weight: <?php echo $food_3->weight ?></div>
+                                        <div>Ingredients: <?php echo $food_3->ingredients ?></div>
+
+                                    </div>
                                 </div>
-                                <div class="col-4 card">
-                                    <img src="<?php echo $food_4->image ?>" alt="">
-                                    <div><?php echo $food_4->title ?></div>
-                                    <div>Price: <?php echo $food_4->price ?></div>
-                                    <div><?php echo $food_4->type ?></div>
-                                    <div>Weight: <?php echo $food_4->weight ?></div>
-                                    <div>Ingredients: <?php echo $food_4->ingredients ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $food_4->image ?>" alt="">
+                                        <div><?php echo $food_4->title ?></div>
+                                        <div>Price: <?php echo $food_4->price ?></div>
+                                        <div><?php echo $food_4->type ?></div>
+                                        <div>Weight: <?php echo $food_4->weight ?></div>
+                                        <div>Ingredients: <?php echo $food_4->ingredients ?></div>
+
+                                    </div>
                                 </div>
-                                <div class="col-4 card">
-                                    <img src="<?php echo $Utilities_1->image ?>" alt="">
-                                    <div><?php echo $Utilities_1->title ?></div>
-                                    <div>Price: <?php echo $Utilities_1->price ?></div>
-                                    <div><?php echo $Utilities_1->type ?></div>
-                                    <div>Material: <?php echo $Utilities_1->material ?></div>
-                                    <div>Ingredients: <?php echo $Utilities_1->dimension ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $Utilities_1->image ?>" alt="">
+                                        <div><?php echo $Utilities_1->title ?></div>
+                                        <div>Price: <?php echo $Utilities_1->price ?></div>
+                                        <div><?php echo $Utilities_1->type ?></div>
+                                        <div>Material: <?php echo $Utilities_1->material ?></div>
+                                        <div>Ingredients: <?php echo $Utilities_1->dimension ?></div>
+
+                                    </div>
                                 </div>
-                                <div class="col-4 card">
-                                    <img src="<?php echo $Utilities_2->image ?>" alt="">
-                                    <div><?php echo $Utilities_2->title ?></div>
-                                    <div>Price: <?php echo $Utilities_2->price ?></div>
-                                    <div><?php echo $Utilities_2->type ?></div>
-                                    <div>Material: <?php echo $Utilities_2->material ?></div>
-                                    <div>Ingredients: <?php echo $Utilities_2->dimension ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $Utilities_2->image ?>" alt="">
+                                        <div><?php echo $Utilities_2->title ?></div>
+                                        <div>Price: <?php echo $Utilities_2->price ?></div>
+                                        <div><?php echo $Utilities_2->type ?></div>
+                                        <div>Material: <?php echo $Utilities_2->material ?></div>
+                                        <div>Ingredients: <?php echo $Utilities_2->dimension ?></div>
+
+                                    </div>
                                 </div>
-                                <div class="col-4 card">
-                                    <img src="<?php echo $Games_1->image ?>" alt="">
-                                    <div><?php echo $Games_1->title ?></div>
-                                    <div>Price: <?php echo $Games_1->price ?></div>
-                                    <div><?php echo $Games_1->type ?></div>
-                                    <div>Features: <?php echo $Games_1->features ?></div>
-                                    <div>Ingredients: <?php echo $Games_1->dimension ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $Games_1->image ?>" alt="">
+                                        <div><?php echo $Games_1->title ?></div>
+                                        <div>Price: <?php echo $Games_1->price ?></div>
+                                        <div><?php echo $Games_1->type ?></div>
+                                        <div>Features: <?php echo $Games_1->features ?></div>
+                                        <div>Ingredients: <?php echo $Games_1->dimension ?></div>
+
+                                    </div>
                                 </div>
-                                <div class="col-4 card">
-                                    <img src="<?php echo $Games_2->image ?>" alt="">
-                                    <div><?php echo $Games_2->title ?></div>
-                                    <div>Price: <?php echo $Games_2->price ?></div>
-                                    <div><?php echo $Games_2->type ?></div>
-                                    <div>Features: <?php echo $Games_2->features ?></div>
-                                    <div>Ingredients: <?php echo $Games_2->dimension ?></div>
+                                <div class="col-4 border">
+                                    <div class="card border-white p-3">
+                                        <img src="<?php echo $Games_2->image ?>" alt="">
+                                        <div><?php echo $Games_2->title ?></div>
+                                        <div>Price: <?php echo $Games_2->price ?></div>
+                                        <div><?php echo $Games_2->type ?></div>
+                                        <div>Features: <?php echo $Games_2->features ?></div>
+                                        <div>Ingredients: <?php echo $Games_2->dimension ?></div>
+
+                                    </div>
                                 </div>
                         </div>
                     </div>
 
                 </div>
+                <footer class="p-5">
+                    <div class="container text-center">
+                    </div>
+                </footer>
 
         </div>
         <script type="text/javascript" src="./js/script.js"></script>
