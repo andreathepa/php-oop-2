@@ -7,7 +7,7 @@
 
     $food_1 = new Food ('https://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', 'Royal Canin Mini Adult', 'Euro 43,99','Dog', '545', 'prosciutto, riso');
 
-    $food_2 = new Food ('https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpghttps://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', 'Almo Nature Holistic Maintenance Medium Large Tonno e Riso', 'Euro 44,99','Dog','600', 'manzo, cereali');
+    $food_2 = new Food ('https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpghttps://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', 'Almo Nature Holistic Maintenance Medium Large', 'Euro 44,99','Dog','600', 'manzo, cereali');
 
     $food_3 = new Food ('https://arcaplanet.vtexassets.com/arquivos/ids/245173/almo-nature-holistic-cane-adult-medium-pollo-e-riso.jpghttps://arcaplanet.vtexassets.com/arquivos/ids/272741/tetra-easycrystal-filterpack-250-300.jpg', 'Almo Nature Cat Daily Lattina', 'Euro 34,99','Cat','400', 'tonno, pollo, prosciutto');
 
@@ -48,8 +48,8 @@
                 <div class="main">
                     <div class="container my-5 bg-white">
                         <div class="row">
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1  p-3">
                                         <img src="<?php echo $food_1->image ?>" alt="">
                                         <div><?php echo $food_1->title ?></div>
                                         <div>Price: <?php echo $food_1->price ?></div>
@@ -59,8 +59,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1 p-3">
                                         <img src="<?php echo $food_2->image ?>" alt="">
                                         <div><?php echo $food_2->title ?></div>
                                         <div>Price: <?php echo $food_2->price ?></div>
@@ -70,8 +70,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1 p-3">
                                         <img src="<?php echo $food_3->image ?>" alt="">
                                         <div><?php echo $food_3->title ?></div>
                                         <div>Price: <?php echo $food_3->price ?></div>
@@ -81,8 +81,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1 p-3">
                                         <img src="<?php echo $food_4->image ?>" alt="">
                                         <div><?php echo $food_4->title ?></div>
                                         <div>Price: <?php echo $food_4->price ?></div>
@@ -92,8 +92,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1 p-3">
                                         <img src="<?php echo $Utilities_1->image ?>" alt="">
                                         <div><?php echo $Utilities_1->title ?></div>
                                         <div>Price: <?php echo $Utilities_1->price ?></div>
@@ -103,8 +103,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1 p-3">
                                         <img src="<?php echo $Utilities_2->image ?>" alt="">
                                         <div><?php echo $Utilities_2->title ?></div>
                                         <div>Price: <?php echo $Utilities_2->price ?></div>
@@ -114,8 +114,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1 p-3">
                                         <img src="<?php echo $Games_1->image ?>" alt="">
                                         <div><?php echo $Games_1->title ?></div>
                                         <div>Price: <?php echo $Games_1->price ?></div>
@@ -125,8 +125,8 @@
 
                                     </div>
                                 </div>
-                                <div class="col-4 border">
-                                    <div class="card border-white p-3">
+                                <div class="col-4 ">
+                                    <div class="card m-1 p-3">
                                         <img src="<?php echo $Games_2->image ?>" alt="">
                                         <div><?php echo $Games_2->title ?></div>
                                         <div>Price: <?php echo $Games_2->price ?></div>
